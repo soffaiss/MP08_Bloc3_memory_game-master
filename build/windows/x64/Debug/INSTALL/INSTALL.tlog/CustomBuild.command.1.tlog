@@ -1,0 +1,10 @@
+^C:\USERS\JOAN.SALVADOR.GORDI\DOWNLOADS\MEMORY_GAME-MASTER\BUILD\WINDOWS\CMAKEFILES\C4EA519093932E997D19AC03301CE548\INSTALL_FORCE.RULE
+setlocal
+cd .
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

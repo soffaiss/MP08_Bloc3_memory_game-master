@@ -1,0 +1,3 @@
+dependencies: \
+  /Users/soff/StudioProjects/myapp8_memory_game-master/build/macos/Build/Intermediates.noindex/Pods.build/Debug/shared_preferences_foundation.build/module.modulemap \
+  /Users/soff/StudioProjects/myapp8_memory_game-master/build/macos/Build/Intermediates.noindex/Pods.build/Debug/shared_preferences_foundation.build/DerivedSources/shared_preferences_foundation_vers.c

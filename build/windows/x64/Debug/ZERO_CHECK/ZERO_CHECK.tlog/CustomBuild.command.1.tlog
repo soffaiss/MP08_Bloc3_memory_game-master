@@ -1,0 +1,10 @@
+^C:\USERS\JOAN.SALVADOR.GORDI\DOWNLOADS\MEMORY_GAME-MASTER\BUILD\WINDOWS\CMAKEFILES\C4EA519093932E997D19AC03301CE548\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/joan.salvador.gordi/Downloads/memory_game-master/windows -BC:/Users/joan.salvador.gordi/Downloads/memory_game-master/build/windows --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/joan.salvador.gordi/Downloads/memory_game-master/build/windows/memory_game.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
